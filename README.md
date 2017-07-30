@@ -45,3 +45,24 @@ For instance:
         background: var(--base-color);
       }
     </style>
+
+
+### How to modify them with JS?
+
+To modify the value of a CSS variable, we need to go into the scope where it is defined and modify the value there.  
+
+For instance:  
+
+    <style>
+      element {
+      --base-color: yellow;    
+      }
+
+      img {
+        background: var(--base-color);
+      }
+    </style>
+
+    <script>
+      document.element.style.setProperty('--base-color', 'green');
+    </script>
