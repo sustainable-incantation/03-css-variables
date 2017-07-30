@@ -49,7 +49,7 @@ For instance:
 
 ### How to modify them with JS?
 
-To modify the value of a CSS variable, we need to go into the scope where it is defined and modify the value there.  
+To modify the value of a CSS variable, **we need to go into the scope where it is defined and modify the value there**.  
 
 For instance:  
 
