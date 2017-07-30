@@ -24,10 +24,17 @@
     /*
       Define the CSS-Variables
     */
-    :root{
+    :root {
       --spacing: 10px;
       --blur: 10px;
       --base: #ffc600;
+    }
+
+    
+    img {
+      padding: var(--spacing);
+      filter: blur(var(--blur));
+      background: var(--base);
     }
 
     /*
@@ -53,6 +60,8 @@
   </style>
 
   <script>
+
+
   </script>
 
 </body>
