@@ -66,7 +66,8 @@
     console.log(inputs);
 
     function handleChange(){
-      console.log(this.value);
+      const suffix = this.dataset.sizing || '';
+      console.log(suffix);
     }
 
     inputs.forEach(input => input.addEventListener('change', handleChange));
