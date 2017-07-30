@@ -7,3 +7,23 @@ We all know about **Sass** and **variables** used in it.
 ##### CSS Variables can be modified at run-time using JS, whereas Sass variables are set at compile-time and thus can't be modified later.  
 
 ***That is why we use CSS Variables.***
+
+
+## Syntax
+
+### Defining
+The CSS Variables are **always defined inside scope**.
+
+For instance:
+
+**Wrong**
+    <style>
+      --base-color: yellow;
+    </style>
+
+**Right**
+    <style>
+      element {
+      --base-color: yellow;    
+      }
+    </style>
