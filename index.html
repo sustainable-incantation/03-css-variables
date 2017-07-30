@@ -63,11 +63,11 @@
 
   <script>
     const inputs = document.querySelectorAll('.controls input');
-    console.log(inputs);
+    //console.log(inputs);
 
     function handleChange(){
       const suffix = this.dataset.sizing || '';
-      console.log(suffix);
+      //console.log(suffix);
 
       document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
     }
