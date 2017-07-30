@@ -17,11 +17,13 @@ The CSS Variables are **always defined inside scope**.
 For instance:
 
 **Wrong**
+
     <style>
       --base-color: yellow;
     </style>
 
 **Right**
+
     <style>
       element {
       --base-color: yellow;    
