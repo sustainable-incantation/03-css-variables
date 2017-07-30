@@ -24,6 +24,8 @@
     /*
       Define the CSS-Variables
     */
+
+    /*:root is used to refer to <html>*/
     :root {
       --spacing: 10px;
       --blur: 10px;
@@ -69,6 +71,7 @@
       const suffix = this.dataset.sizing || '';
       //console.log(suffix);
 
+      //:root can be accessed by document.documentElement
       document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
     }
 
