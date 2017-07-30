@@ -11,7 +11,7 @@ We all know about **Sass** and **variables** used in it.
 
 ## Syntax
 
-### Defining
+### How to define?
 The CSS Variables are **always defined inside scope**.
 
 For instance:
@@ -27,3 +27,5 @@ For instance:
       --base-color: yellow;    
       }
     </style>
+
+### How to use?
