@@ -29,3 +29,17 @@ For instance:
     </style>
 
 ### How to use?
+
+The variables are referenced (in CSS) using **var(--variablename)**.  
+
+For instance:
+
+    <style>
+      element {
+      --base-color: yellow;    
+      }
+
+      img {
+        background: var(--base-color);
+      }
+    </style>
